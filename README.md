@@ -142,11 +142,225 @@ AI-Code-Reviewer/
 
 |
 
-|-- 01\_Initial\_Code\_Quality\_Score\_44.png
+|-- screenshots/
 
-|-- 02\_Flake8\_Code\_Quality\_Analysis.png
+|   |-- 01\_Initial\_Code\_Quality\_Score\_44.png
 
-|-- radon\_complexity\_analysis.png
+|   |-- 02\_Flake8\_Code\_Quality\_Analysis.png
 
-|-- AI\_Code\_Reviewer\_Analysis\_Report.png
+|   |-- radon\_complexity\_analysis.png
+
+|   |-- AI\_Code\_Reviewer\_Analysis\_Report.png
+
+Installation
+
+
+
+Clone the repository:
+
+
+
+git clone https://github.com/veenush22-ctrl/AI-Code-Reviewer.git
+
+
+
+Navigate to the project directory:
+
+
+
+cd AI-Code-Reviewer
+
+
+
+Create a virtual environment:
+
+
+
+python -m venv venv
+
+
+
+Activate the virtual environment on Windows:
+
+
+
+venv\\Scripts\\activate
+
+
+
+Install the required dependencies:
+
+
+
+pip install -r requirements.txt
+
+Run the Application
+
+
+
+Start the Streamlit application:
+
+
+
+streamlit run app.py
+
+
+
+After running the command, open the local Streamlit URL displayed in the terminal.
+
+
+
+Using the Application
+
+Open the AI Code Reviewer application.
+
+Upload a Python .py file.
+
+Select or enable the available analysis tools.
+
+Run the code analysis.
+
+Review the overall code quality score.
+
+Check Flake8 code quality issues.
+
+Review Black formatting suggestions.
+
+Analyze cyclomatic complexity using Radon.
+
+Read the improvement recommendations.
+
+Download the generated analysis report.
+
+Sample Analysis
+
+
+
+The project includes sample analysis results demonstrating:
+
+
+
+Initial code quality score
+
+Flake8 code quality analysis
+
+Black formatting analysis
+
+Radon complexity analysis
+
+Improvement recommendations
+
+Generated analysis report
+
+Screenshots
+
+Initial Code Quality Score
+
+
+
+Flake8 Code Quality Analysis
+
+
+
+Radon Complexity Analysis
+
+
+
+Analysis Report
+
+
+
+Requirements
+
+
+
+The project dependencies are listed in requirements.txt.
+
+
+
+streamlit
+
+flake8
+
+black
+
+radon
+
+Learning Outcomes
+
+
+
+This project provided practical experience with:
+
+
+
+Python application development
+
+Streamlit web application development
+
+Automated code quality analysis
+
+Python code formatting
+
+Cyclomatic complexity analysis
+
+File upload and processing
+
+Code quality scoring
+
+Automated recommendations
+
+Report generation
+
+Git and GitHub project management
+
+Project Purpose
+
+
+
+This project was developed as a practical Python project to demonstrate the use of automated code analysis tools and Streamlit for building an interactive developer-focused application.
+
+
+
+The project focuses on making Python code review easier by combining multiple analysis tools into a single web-based interface.
+
+
+
+Author
+
+
+
+Veenu Sharma
+
+
+
+GitHub: veenush22-ctrl
+
+
+
+License
+
+
+
+This project is intended for educational and portfolio purposes.
+
+
+
+
+
+\### Save karne ke baad
+
+
+
+`Ctrl + S` → Notepad close.
+
+
+
+\*\*Important:\*\* Ab README mein screenshots ke paths:
+
+
+
+```text
+
+screenshots/filename.png
 
